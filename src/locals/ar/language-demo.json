@@ -1,0 +1,17 @@
+{
+  "eyebrow": "سياق اللغة",
+  "title": "مساحة عمل بلغتك",
+  "description": "غيّر اللغة لتتحدث جميع المكونات داخل المزوّد اللغة نفسها.",
+  "greeting": "أهلًا، {{name}}!",
+  "cardTitle": "قائمة القراءة الخاصة بك",
+  "cardDescription": "تستخدم هذه البطاقة خطاف useTranslation من مكتبة react-i18next مباشرةً.",
+  "articles_zero": "ليس لديك أي مقالات محفوظة.",
+  "articles_one": "لديك مقال واحد محفوظ.",
+  "articles_two": "لديك مقالان محفوظان.",
+  "articles_few": "لديك {{count}} مقالات محفوظة.",
+  "articles_many": "لديك {{count}} مقالًا محفوظًا.",
+  "articles_other": "لديك {{count}} مقال محفوظ.",
+  "addArticle": "أضف مقالًا",
+  "removeArticle": "احذف مقالًا",
+  "nested": "مكوّن آخر يستخدم اللغة {{language}} ويقرأ باتجاه {{direction}}."
+}

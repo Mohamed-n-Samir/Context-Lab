@@ -11,9 +11,11 @@
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
+    "i18next": "^26.4.3",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-i18next": "^17.0.16"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",

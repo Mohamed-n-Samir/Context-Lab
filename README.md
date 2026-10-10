@@ -34,6 +34,7 @@ src/
   components/           Demo app interface
   contexts/             Portable contexts, one folder per context
   hooks/                Reusable hooks with their own documentation
+  locals/               Language folders with shared and page-specific JSON
   demo/
     registry.ts         Available contexts and their demo components
 ```
@@ -81,6 +82,9 @@ React or Next.js release.
   preference fallback. See `src/contexts/theme/README.md`.
 - **useLocalStorage**: generic persisted JSON state hook. See
   `src/hooks/use-local-storage/README.md`.
+- **Language / i18n**: isolated i18next instance, persisted language, browser
+  preference fallback, translations and RTL/LTR support. See
+  `src/contexts/language/README.md`.
 
 The theme demo is selected by default in the playground. `npm test` verifies the
 storage behavior with Node's built-in test runner (Node 22.18+ or 24+). The app

@@ -5,5 +5,6 @@ source and a README with exact setup steps, API examples, and an explanation of
 how it works.
 
 Available: `theme/` — a light/dark provider powered by `useLocalStorage`.
+Available: `language/` — i18next translations, persisted language, and RTL/LTR direction.
 
 Implementation and demo conventions are documented in the project root README.

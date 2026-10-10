@@ -58,3 +58,36 @@ body {
 .theme-button:hover { filter: brightness(1.1); }
 .theme-button:disabled { opacity: 0.5; cursor: wait; }
 .theme-button[aria-pressed="true"] { outline: 2px solid var(--theme-fg); outline-offset: 2px; }
+
+.language-panel {
+  background: #f4f7ee;
+  color: #283d30;
+  border: 1px solid #dbe4d0;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: start;
+}
+
+.language-input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ced8c2;
+  border-radius: 8px;
+  background: white;
+  color: #283d30;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.language-button {
+  background: #2f4938;
+  color: white;
+  border-radius: 8px;
+  padding: 9px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.language-button:hover { background: #41604a; }
+.language-button:disabled { opacity: 0.5; cursor: not-allowed; }

@@ -1,5 +1,6 @@
 import type { ComponentType } from "react";
 import { ThemeDemo } from "./theme-demo";
+import { LanguageDemo } from "./language-demo";
 
 /** Each Demo must mount its real provider and expose interactive consumers. */
 export type ContextDemo = {
@@ -21,4 +22,12 @@ export const contextDemos: readonly ContextDemo[] = [{
   sourcePath: "src/contexts/theme/theme-context.tsx",
   readmePath: "src/contexts/theme/README.md",
   Demo: ThemeDemo,
+}, {
+  id: "language",
+  name: "Language / i18n",
+  description: "Shared translations, saved language selection, and RTL support with i18next.",
+  tags: ["language", "i18n", "i18next", "translation", "Arabic", "English", "RTL"],
+  sourcePath: "src/contexts/language/language-context.tsx",
+  readmePath: "src/contexts/language/README.md",
+  Demo: LanguageDemo,
 }];

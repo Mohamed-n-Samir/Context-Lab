@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Language context",
+  "title": "A workspace in your language",
+  "description": "Switch languages and every wrapped consumer updates together.",
+  "greeting": "Welcome, {{name}}!",
+  "cardTitle": "Your reading list",
+  "cardDescription": "This card uses react-i18next's useTranslation hook directly.",
+  "articles_one": "You have {{count}} article saved.",
+  "articles_other": "You have {{count}} articles saved.",
+  "addArticle": "Add article",
+  "removeArticle": "Remove article",
+  "nested": "Another consumer sees {{language}} and reads {{direction}}."
+}
